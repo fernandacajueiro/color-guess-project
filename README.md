@@ -20,8 +20,6 @@ Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma 
 
 ---
 
-## Requisitos do projeto
-
 ### 1 - O seu site deve possuir um título com o nome do seu jogo
 
 - O **id** do seu título deve ser `title`
