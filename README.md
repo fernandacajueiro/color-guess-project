@@ -1,8 +1,8 @@
-# Boas vindas ao repositório do projeto de adivinhação de Cor!
+# Boas vindas ao repositório do projeto de adivinhação de cor!
 
 # Requisitos do projeto
 
-### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar à todos!
+### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar a todos!
 
 <p align="center">
   <img
@@ -12,7 +12,9 @@
   >
 </p>
 
-## Requisitos Obrigatórios:
+---
+
+## Requisitos obrigatórios:
 
 Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma string RGB, você irá fornecer 6 alternativas visuais de cores, sendo uma delas a correta! Você poderá estilizar seu projeto da **forma que desejar** desde que todos os requisitos sejam cumpridos. Use sua imaginação! 🧠
 
