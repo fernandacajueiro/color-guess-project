@@ -1,4 +1,4 @@
-# Welcome to the Color Guess project repository!
+# Welcome to the Color Guess project repository! 🎨
 
 # Project requirements
 
