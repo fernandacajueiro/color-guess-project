@@ -1,65 +1,53 @@
-# Boas vindas ao repositório do projeto de adivinhação de cor!
+# Welcome to the Color Guess project repository!
 
-# Requisitos do projeto
+# Project requirements
 
-### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar a todos!
-
-<p align="center">
-  <img
-    class="rounded mx-auto d-block"
-    src="/guess-the-color.gif"
-    alt="Gif exibindo um jogo de adivinhar a cor"
-  >
-</p>
+### 💡 In this project an RGB color guesser should be implemented. Given an RGB string, 6 visual color alternatives should be presented, one of them the correct color.
 
 ---
 
-## Requisitos obrigatórios:
+## Mandatory requirements:
 
-Neste projeto, você implementará um adivinhador de cor RGB. Ou seja, dada uma string RGB, você irá fornecer 6 alternativas visuais de cores, sendo uma delas a correta! Você poderá estilizar seu projeto da **forma que desejar** desde que todos os requisitos sejam cumpridos. Use sua imaginação! 🧠
+### 1 - The webpage must have a title with the name of the game.
 
----
+- The title **id** should be `title`.
 
-### 1 - O seu site deve possuir um título com o nome do seu jogo
+### 2 - The webpage should contain a text with the RGB code to be guessed.
 
-- O **id** do seu título deve ser `title`
+- The **id** should be `rgb-color`.
+- This text must contain the three numbers of the RGB colors, in the following format: `(168, 34, 1)`.
 
-### 2 - A página deve possuir o texto com o código RGB a ser adivinhado
+### 3 - The webpage should contain color options to be guessed.
 
-- O seu **id** deve ser `rgb-color`
-- Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
+- There should be 6 circles as color guessing options.
+- The circles should have the **class** `ball`.
 
-### 3 - A página deve conter opções de cores para serem adivinhadas
+### 4 - The colors of the circles should be generated dinamically.
 
-- Deve conter 6 circulos como opção de cor de adivinhação
-- A **class** de todos os circulos deve ser `ball`
+- When the page is loaded, the the colors of each of the 6 colored circles must be generated via JavaScript.
 
-### 4 - As cores das bolas devem ser geradas dinâmicamente
+### 5 - When clicking on a colored circle, a text should be presented indicating if it was the correct choice.
 
-- Ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript
+- The element **id** should be `answer`.
+- When the game starts, the text displayed should be `"Escolha uma cor"`.
+- If the colored circle is **correct**, the text `"Acertou!"` should be displayed.
+- If the colored circle is **incorrect**, the text `"Errou! Tente novamente!"` should be displayed.
 
-### 5 - Ao clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+### 6 - Create a button to start/restart the game.
 
-- O seu **id** do elemento deve ser `answer`
-- Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
-- Se o circulo colorido for o **correto**, deve ser exibido o texto `"Acertou!"`
-- Se o circulo colorido for o **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
+- The button must have the **id** `reset-game`.
+- When clicking the button, new colors must be generated via JavaScript and the `rgb-color` element must be updated.
+- Upon clicking the button, the `answer` element should return to its initial state, displaying the text `"Choose a color"`.
 
-### 6 - Crie um botão para iniciar/reiniciar o jogo
+## BONUS
 
-- O botão deve ter o **id** `reset-game`.
-- Ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento `rgb-color` deve ser atualizado
-- Ao clicar no botão, o elemento `answer` deve voltar ao estado inicial, exibindo o texto `"Escolha uma cor"`
+### 7 - Create a score that increments 3 points for every hit in the game.
 
-## BÔNUS
-
-### 7 - Crie um placar que incremente 3 pontos para cada acerto no jogo
-
-- O elemento deve ter o **id** `score`.
-- O valor inicial dele deve ser 0.
-- A cada acerto, é incrementado 3 pontos ao placar
-- Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado
+- The element must have the **id** `score`.
+- Its initial value must be 0.
+- For every hit, 3 points are added to the score.
+- By clicking the reset button, the score **MUST NOT** be reset.
 
 ---
 
-#VQV 🚀
+🚀
