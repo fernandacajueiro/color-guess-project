@@ -37,7 +37,7 @@
 
 - The button must have the **id** `reset-game`.
 - When clicking the button, new colors must be generated via JavaScript and the `rgb-color` element must be updated.
-- Upon clicking the button, the `answer` element should return to its initial state, displaying the text `"Choose a color"`.
+- Upon clicking the button, the `answer` element should return to its initial state, displaying the text `"Escolha uma cor"`.
 
 ## BONUS
 
@@ -46,7 +46,7 @@
 - The element must have the **id** `score`.
 - Its initial value must be 0.
 - For every hit, 3 points are added to the score.
-- By clicking the reset button, the score **MUST NOT** be reset.
+- By clicking the button to rest the game, the score **MUST NOT** be reset.
 
 ---
 
